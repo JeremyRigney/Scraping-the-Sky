@@ -7,11 +7,11 @@ html{
 
 body  {	
 	margin: 0px auto;
-	background-size:1600px 800px ;
+	background-size:1500px 850px ;
 	background-repeat: no-repeat;
 	background-color: #cccccc;
 	background-attachment: fixed;
-	background-image: url("images/empires.jpg");
+	background-image: url("images/makkahbg.jpg");
 
 }
 
@@ -23,7 +23,7 @@ body  {
 
 @font-face{	
 	font-family: 'subtitlefont';
-		src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
+	src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
 		
 }
 
@@ -102,7 +102,7 @@ a:active {
 	font-size:90px;
 	color:#fff;
 	font-style:bold;
-	margin-left: 480px;
+	margin-left: 530px;
     margin-right: auto;
 	margin-top:150px;
     width: 950px;
@@ -151,17 +151,17 @@ a:active {
 
 #body_info{
 	width:100%;
-	height:1650px;
-	background-color:rgba(255,255,255,0.6);
+	height:1150px;
+	background-color:rgba(255,255,255,0.75);
 	margin-top:500px;
-	right:0;
-	z-index:-1;
-	float:right;
-	position:relative;
-	border-top:2px solid #29516D;
+	z-index:2;
+	position:absolute;
+	text-align:center;
+	border-top:4px solid #29516D;
 	padding-top:20px;
 	
 }
+
 
 #heading{
 	font-family:titlefont;
@@ -192,6 +192,7 @@ a:active {
 	padding:40px;
 	text-align:center;
 	margin: 10px auto;	
+	border:0px solid #29516D;
 	margin-left:auto;
 	margin-right:auto;
 
@@ -205,9 +206,9 @@ a:active {
 	text-align:center;
 	margin: 10px auto;	
 	position: relative;
+	border:0px solid #29516D;
 	margin-left:auto;
 	margin-right:auto;
-	padding-bottom:10px;
 
 }
 
@@ -225,17 +226,12 @@ a:active {
 
 }
 
-#slideshow{
-	font-family:contentfont;
-	font-size:18px;
-	width:900px;
-	padding:40px;
+#rfooter_col{
+	float:right;
+	width:40%;
+	margin:5px;
 	text-align:center;
-	margin: 10px auto;	
-	position: relative;
-	margin-left:auto;
-	margin-right:auto;
-	
+
 }
 
 #footer{

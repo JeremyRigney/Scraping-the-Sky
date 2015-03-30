@@ -23,7 +23,7 @@ body  {
 
 @font-face{	
 	font-family: 'subtitlefont';
-		src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
+	src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
 		
 }
 
@@ -211,20 +211,6 @@ a:active {
 
 }
 
-#timelapse{
-	font-family:contentfont;
-	font-size:18px;
-	width:900px;
-	padding:40px;
-	text-align:center;
-	margin: 10px auto;	
-	position: relative;
-	border:0px solid #29516D;
-	margin-left:auto;
-	margin-right:auto;
-	
-}
-
 #ldidyouknow_col{
 	float:left;
 	width:430px;
@@ -237,6 +223,20 @@ a:active {
 	width:430px;
 	text-align:center;
 
+}
+
+#timelapse{
+	font-family:contentfont;
+	font-size:18px;
+	width:900px;
+	padding:40px;
+	text-align:center;
+	margin: 10px auto;	
+	position: relative;
+	border:0px solid #29516D;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 #rfooter_col{

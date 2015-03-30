@@ -7,11 +7,11 @@ html{
 
 body  {	
 	margin: 0px auto;
-	background-size:1550px 780px ;
+	background-size:1500px 800px ;
 	background-repeat: no-repeat;
 	background-color: #cccccc;
 	background-attachment: fixed;
-	background-image: url("images/shardbg.jpg");
+	background-image: url("images/kingdom.jpg");
 
 }
 
@@ -23,7 +23,7 @@ body  {
 
 @font-face{	
 	font-family: 'subtitlefont';
-		src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
+	src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
 		
 }
 
@@ -102,7 +102,7 @@ a:active {
 	font-size:90px;
 	color:#fff;
 	font-style:bold;
-	margin-left: 530px;
+	margin-left: 500px;
     margin-right: auto;
 	margin-top:150px;
     width: 950px;
@@ -151,7 +151,7 @@ a:active {
 
 #body_info{
 	width:100%;
-	height:1150px;
+	height:1200px;
 	background-color:rgba(255,255,255,0.75);
 	margin-top:500px;
 	z-index:2;
@@ -161,7 +161,6 @@ a:active {
 	padding-top:20px;
 	
 }
-
 
 #heading{
 	font-family:titlefont;
@@ -224,6 +223,20 @@ a:active {
 	width:430px;
 	text-align:center;
 
+}
+
+#timelapse{
+	font-family:contentfont;
+	font-size:18px;
+	width:900px;
+	padding:40px;
+	text-align:center;
+	margin: 10px auto;	
+	position: relative;
+	border:0px solid #29516D;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 #rfooter_col{
