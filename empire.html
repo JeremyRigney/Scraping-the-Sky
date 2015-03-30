@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		
+		<title>Empire State Building | Scraping the Sky</title>
+		
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="empire.css" />
+		
+		<script>
+			
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	
+	</script>
+
+		
+	</head>
+	<body>
+	
+	<div id="menu">
+		<a href="index.html">HOME</a>
+		<a href="burj.html">BURJ KHALIFA</a> 
+		<a href="empire.html">EMPIRE STATE BUILDING</a> 
+		<a href="shard.html">THE SHARD</a> 
+		<a href="owtc.html">ONE WORLD TRADE CENTER</a> 
+		<a href="taipei.html">TAIPEI 101</a> 
+		<a href="kingdom.html">KINGDOM TOWER</a> 
+	</div>
+			
+	<div id="title">Empire State Building<span>Most photograhed building in the world<br>New York</span></div>
+		
+	<div id='bottom_center_button'>
+		<a href="#about">
+		<div id='moreinfo_button'>
+			<b>LEARN MORE</b>
+		</div>
+		</a>
+	</div>
+
+	<div id="body_info">	
+		<a name="about"></a>
+
+		<div id="construction"><div id="heading">CONSTRUCTION</div>
+			The Empire State Building is a 102-story skyscraper located in Midtown Manhattan, New York City, on Fifth Avenue between West 33rd and 34th Streets.
+			<br>
+			3,400 workers constructed the 102 storey building in just 410 days, a record build time.
+			Construction started on January 22, 1930, and was completed on May 1, 1931.<br>
+			The Empire State Building was built at a cost of $24,718,000. $40,948,900 if land is included.
+			<br>
+			
+		</div>
+			
+		<hr width="700">
+			
+		<div id="architecture"><div id="heading">ARCHITECTURE</div>
+			<i>Address:</i>350 5th Ave, New York, NY 10118, United States<br>
+			<i>Owner:</i>Empire State Realty Trust. Anthony Malkin serves as Chairman, CEO and President.<br>
+			<i>Architects:</i> William F. Lamb, Gregory Johnson<br>
+			<i>Height:</i>381 meters, 443 m to tip <br>
+			<i>Function:</i> Tower block, Offices<br>	
+		</div>
+			
+		<hr width="700">
+			
+		<div id="didyouknow"><div id="heading">DID YOU KNOW?</div>
+			<div id="ldidyouknow_col">
+				Every year hundreds of runners apply for the Empire State Building Run-Up, the world’s oldest and most famous tower race. The select few chosen have to face the challenge of the buildings 1,576 stairs. 
+				The fastest runners cover 86 floors in about 10 minutes. The World Record to the top is currently held by Paul Crake of Australia, set in 2003.
+				<br><br>
+				<image src="images/empirerun2.jpg" height="230px" width="350px" align="middle"/>
+
+			</div>
+			<div id="rdidyouknow_col">
+				<br>
+				<image src="images/empirerun.jpg" height="370px" width="300px" align="middle"/>
+			</div>	
+		</div>
+			
+		<div id="footer">
+			<div id="lfooter_col">
+				&#169; Copyright 2015 - Jeremy Rigney
+			</div>	
+				
+			<div id="rfooter_col">
+				<a href="#"> Facebook <img src="" /></a> -
+				<a href="#"> Twitter <img src="" /></a>
+			</div>
+		</div>
+			
+	</div>
+
+				
+	</div>
+	</body>
+	
+</html>

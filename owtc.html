@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		
+		<title>One World Trade Center | Scraping the Sky</title>
+		
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="owtc.css" />
+		
+		<script>
+			
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	
+	</script>
+
+		
+	</head>
+	<body>
+	
+	<div id="menu">
+		<a href="index.html">HOME</a>
+		<a href="burj.html">BURJ KHALIFA</a> 
+		<a href="empire.html">EMPIRE STATE BUILDING</a> 
+		<a href="shard.html">THE SHARD</a> 
+		<a href="owtc.html">ONE WORLD TRADE CENTER</a> 
+		<a href="taipei.html">TAIPEI 101</a> 
+		<a href="kingdom.html">KINGDOM TOWER</a> 
+	</div>
+			
+	<div id="title">ONE WORLD TRADE CENTER<span>Tallest building in America<br>Manhattan, NY</span></div>
+		
+	<div id='bottom_center_button'>
+		<a href="#about">
+		<div id='moreinfo_button'>
+			<b>LEARN MORE</b>
+		</div>
+		</a>
+	</div>
+
+	<div id="body_info">	
+		<a name="about"></a>
+
+		<div id="construction"><div id="heading">CONSTRUCTION</div>
+			One World Trade Center refers to the main building of the new World Trade Center complex in Lower Manhattan, New York City. 
+			It is the tallest skyscraper in the Western Hemisphere, and the fourth-tallest in the world.
+			<br>
+			The construction began on April 27, 2006 and the building officially opened on November 3, 2014.
+			<br>
+			
+		</div>
+			
+		<hr width="700">
+			
+		<div id="architecture"><div id="heading">ARCHITECTURE</div>
+			<i>Address:</i>1 World Trade Center, New York, NY 10006, United States<br>
+			<i>Owner:</i> Emaar Properties<br>
+			<i>Architects:</i> Daniel Libeskind, David Childs<br>
+			<i>Height:</i> 417 meters, 546 m including the spire
+			<br>
+			The building has 104 floors and has a Modern architecture and Contemporary architecture style.
+		</div>
+		
+		<hr width="700">
+		
+		<div id="didyouknow"><div id="heading">DID YOU KNOW?</div>
+				The building is 1,776 feet tall (plus spire), to represent the year the declaration of Independance was signed.
+				The first 57 meters of the building are made reinforced blast resistant concrete. The rest of the exterior concrete is 1 meter thick.
+			<div id="ldidyouknow_col"></div>
+			<div id="rdidyouknow_col"></div>	
+		</div>
+		
+		<hr width="700">
+		
+		<div id= "timelapse"><div id="heading">TIMELAPSE OF CONSTRUCTION</div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Nn11DWH_LEA?showinfo=0&start=12" frameborder="0" allowfullscreen></iframe>
+		</div>
+			
+		<div id="footer">
+			<div id="lfooter_col">
+				&#169; Copyright 2015 - Jeremy Rigney
+			</div>	
+				
+			<div id="rfooter_col">
+				<a href="#"> Facebook <img src="" /></a> -
+				<a href="#"> Twitter <img src="" /></a>
+			</div>
+		</div>
+			
+	</div>
+
+				
+	</div>
+	</body>
+	
+</html>

@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+html{
+	margin: 0px auto;
+	overflow-x:hidden;
+}
+
+body  {	
+	margin: 0px auto;
+	background-size:1600px 800px ;
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-attachment: fixed;
+	background-image: url("images/taipei101.jpg");
+
+}
+
+@font-face{	
+	font-family: 'titlefont';
+	src: url('fonts/movie_letters/movieletters.ttf'), url('fonts/movie_letters/movieletters.eot');
+	
+}
+
+@font-face{	
+	font-family: 'subtitlefont';
+		src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
+		
+}
+
+@font-face{	
+	font-family: 'contentfont';
+	src: url('fonts/rosario/rosario.ttf'), url('fonts/rosario/rosario.eot');
+
+}
+
+
+a:link {
+    text-decoration: none;
+	color:#179DA3;
+	transition:0.3s;
+}
+a:visited {
+    text-decoration: none;
+	color:#179DA3;
+
+}
+a:hover {
+	color:#000;
+	transition:0.3s;
+
+}
+a:active {
+    text-decoration: none;
+}
+
+#menu{
+	height:55px;
+	width:100%;
+	top:0;
+	margin-bottom:-60px;
+	background-color:rgba(170, 173, 173, 0);
+	text-align:center;
+	font-family:titlefont;
+	transition:0.3s linear;
+	padding-top:5px;
+	font-size:45px;
+	overflow:hidden;	
+
+}
+
+#menu:hover{
+	opacity:1;
+	cursor:default;
+	transition:0.3s linear;
+	background-color:rgba(170, 173, 173, 0.3);
+
+}
+
+#menu a{
+	color:#fff;
+	padding-left:15px;
+	padding-right:15px;
+	transition:0.25s linear;
+
+}
+
+#menu:hover a{
+	color:#fff;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+
+#menu a:hover{
+	color:#000;
+	transition:0.25s linear;
+	
+}
+			
+#title{
+	font-family:titlefont;
+	font-size:90px;
+	color:#fff;
+	font-style:bold;
+	margin-left: 530px;
+    margin-right: auto;
+	margin-top:150px;
+    width: 950px;
+	text-align:center;
+	z-index:1;
+	position:relative;
+	
+}
+
+#title span{
+	font-size:15px;
+	font-family:subtitlefont;
+	display:block;
+	margin-top:-10px;
+}
+
+
+#bottom_center_button{
+    position:absolute;
+    bottom:5px;
+    width:100%; 
+	
+ } 
+ 
+#moreinfo_button{
+    width:130px;
+	height:20px;
+	text-align:center;
+    margin:0px auto; 
+	background-color:rgba(255, 255, 255, 0.7);
+	padding:10px;
+	font-family:subtitlefont;
+	border:1px solid #179DA3;
+	transition:0.3s linear;
+	line-height:25px;
+
+ }
+ 
+ #moreinfo_button:hover{
+	background-color:rgba(255, 255, 255, 1);
+	transition:0.3s linear;
+	color:#179da3;
+
+
+ }
+
+#body_info{
+	width:100%;
+	height:1150px;
+	background-color:rgba(255,255,255,0.75);
+	margin-top:500px;
+	z-index:2;
+	position:absolute;
+	text-align:center;
+	border-top:4px solid #29516D;
+	padding-top:20px;
+	
+}
+
+
+#heading{
+	font-family:titlefont;
+	font-size:60px;
+	text-align:center;
+
+}
+
+#construction{
+	font-family:contentfont;
+	font-size:18px;
+	width:900px;
+	position:relative;
+	padding:40px;
+	text-align:center;
+	margin: 10px auto;	
+	border:0px solid #29516D;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#architecture{
+	font-family:contentfont;
+	font-size:18px;
+	width:900px;
+	position:relative;
+	padding:40px;
+	text-align:center;
+	margin: 10px auto;	
+	border:0px solid #29516D;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#didyouknow{
+	font-family:contentfont;
+	font-size:18px;
+	width:900px;
+	padding:40px;
+	text-align:center;
+	margin: 10px auto;	
+	position: relative;
+	border:0px solid #29516D;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#ldidyouknow_col{
+	float:left;
+	width:430px;
+	text-align:center;
+
+}
+
+#rdidyouknow_col{
+	float:right;
+	width:430px;
+	text-align:center;
+
+}
+
+#rfooter_col{
+	float:right;
+	width:40%;
+	margin:5px;
+	text-align:center;
+
+}
+
+#footer{
+	width:100%;
+	height:30px;
+	bottom:0;
+	left:0;
+	padding:30px;
+	font-family:subtitlefont;
+	position:absolute;
+	background-color:rgba(38, 91, 106, 0.7);
+	cursor:default;
+
+}
+
+#lfooter_col{
+	float:left;
+	width:40%;
+	margin:5px;
+	text-align:center;
+
+}
+
+#rfooter_col{
+	float:right;
+	width:40%;
+	margin:5px;
+	text-align:center;
+
+}
+
+#rfooter_col a{
+	color:#000;
+}
+#rfooter_col a:hover{
+	color:#fff;
+}
+
+
+  

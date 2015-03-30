@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		
+		<title>Burj Khalifa | Scraping the Sky</title>
+		
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="burj.css" />
+		
+		<script>
+			
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	
+	</script>
+
+		
+	</head>
+	<body>
+	
+	<div id="menu">
+		<a href="index.html">HOME</a>
+		<a href="burj.html">BURJ KHALIFA</a> 
+		<a href="empire.html">EMPIRE STATE BUILDING</a> 
+		<a href="shard.html">THE SHARD</a> 
+		<a href="owtc.html">ONE WORLD TRADE CENTER</a> 
+		<a href="taipei.html">TAIPEI 101</a> 
+		<a href="kingdom.html">KINGDOM TOWER</a> 
+	</div>
+			
+	<div id="title">BURJ KHALIFA<span>World's Tallest Man-Made Structure<br>DUBAI, UAE</span></div>
+		
+	<div id='bottom_center_button'>
+		<a href="#about">
+		<div id='moreinfo_button'>
+			<b>LEARN MORE</b>
+		</div>
+		</a>
+	</div>
+
+	<div id="body_info">	
+		<a name="about"></a>
+
+		<div id="construction"><div id="heading">CONSTRUCTION</div>
+			The Burj Khalifa is a skyscraper located in Dubai, United Arab Emirates. 			
+			It is the tallest man-made structure in the world, standing at approximately 830 m.
+			<br>
+			During the peak of construction, at least 12,000 workers worked on the construction site per day.
+			Construction started on the 21st September, 2004 and the skyscraper was officially opened on the 4th of January, 2010.<br>
+			The Burj Khalifa was built at a cost of $1.5 billion and has 163 floors.
+			<br>
+			
+		</div>
+			
+		<hr width="700">
+			
+		<div id="architecture"><div id="heading">ARCHITECTURE</div>
+			<i>Address:</i> 1 Sheikh Mohammed bin Rashid Blvd - Dubai - United Arab Emirates<br>
+			<i>Owner:</i> Emaar Properties<br>
+			<i>Architects:</i> Adrian Smith, William F. Baker, Marshall Strabala, George J. Efstathiou<br>
+			<i>Height:</i> 828 meters
+			<br>
+			The building design takes after the Greek flower, Hymenocallis.
+		</div>
+			
+		<hr width="700">
+			
+		<div id="didyouknow"><div id="heading">DID YOU KNOW?</div>
+			<div id="ldidyouknow_col">
+				<i>Tom Cruise</i> sat at the pinacle of the Burj Khalifa during a break in filming <i>Mission Impossible- Ghost Protocol</i>. 
+				He sat 828 meters above earth, on a pole 1 meter in diameter, barefoot. Because He Can.
+				<br>
+			</div>
+			<div id="rdidyouknow_col">
+				<image src="images/cruise.jpg" height="350px" width="300px" align="middle"/>
+			</div>	
+		</div>
+			
+		<div id="footer">
+			<div id="lfooter_col">
+				&#169; Copyright 2015 - Jeremy Rigney
+			</div>	
+				
+			<div id="rfooter_col">
+				<a href="#"> Facebook <img src="" /></a> -
+				<a href="#"> Twitter <img src="" /></a>
+			</div>
+		</div>
+			
+	</div>
+
+				
+	</div>
+	</body>
+	
+</html>
