@@ -45,6 +45,7 @@ html{
 	margin: 0px auto;
 	overflow-x:hidden;
 	max-width:100%;
+	
 }
 
 body  {
@@ -54,6 +55,7 @@ body  {
 	background-color: #a1a1a1;
 	background-attachment: fixed;
 	max-width:100%;
+	
 
 }
 
@@ -100,17 +102,15 @@ a:active {
 	width:100%;
 	top:0;
 	margin-bottom:-60px;
-	background-color:rgba(170, 173, 173, 0.0);
-	opacity:0.5;
+	background-color:rgba(170, 173, 173, 0);
 	text-align:center;
 	font-family:titlefont;
 	transition:0.3s linear;
 	padding-top:5px;
 	font-size:45px;
-	overflow:hidden;
+	overflow:hidden;	
 
 }
-
 
 #menu:hover{
 	opacity:1;
@@ -119,27 +119,49 @@ a:active {
 	background-color:rgba(170, 173, 173, 0.3);
 
 }
+#menu ul{
+	margin:0px auto;
+	top:0;
 
-#menu a{
+}
+
+#menu li{
 	color:#fff;
+	display:inline;
+	font:titlefont;
 	padding-left:15px;
 	padding-right:15px;
 	transition:0.25s linear;
 
 }
 
-#menu:hover a{
+#menu a{
 	color:#fff;
-	padding-left:15px;
-	padding-right:15px;
-	
 }
 
 #menu a:hover{
 	color:#000;
+}
+
+#menu:hover li{
+	color:#fff;
+	
+}
+
+#menu li:hover{
+	color:#000;
 	transition:0.25s linear;
 	
 }
+
+.minimenu{
+	float:right;
+	display:none;
+	margin:10px;
+	width:35px;
+	height:35px;
+}
+	
 			
 #title{
 	font-family:titlefont;
@@ -254,23 +276,25 @@ a:active {
  } 
  
 #moreinfo_button{
-    width:80px;
-	padding-top:-40px;
+    width:130px;
+	height:20px;
 	text-align:center;
     margin:0px auto; 
-	background-color:rgba(255, 255, 255, 0.0);
+	background-color:rgba(255, 255, 255, 0.7);
+	padding:10px;
+	/*border: 1px solid #179DA3;*/
 	font-family:subtitlefont;
-	/*border:1px solid #179DA3;*/
 	transition:0.3s linear;
+	line-height:25px;
 
-}
+ }
  
-#moreinfo_button:hover{
+ #moreinfo_button:hover{
 	background-color:rgba(255, 255, 255, 1);
 	transition:0.3s linear;
 	color:#179da3;
 
-}
+ }
 
 .scrollToTop{
 	width:100px; 
@@ -301,8 +325,7 @@ a:active {
 	position:absolute;
 	text-align:center;
 	border-top:4px solid #29516D;
-	padding-top:20px;
-	
+	padding-top:20px;	
 	
 }
 
@@ -335,7 +358,6 @@ a:active {
 	padding:40px;
 	text-align:center;
 	margin: 10px auto;	
-	border:0px solid #29516D;
 	margin-left:auto;
 	margin-right:auto;
 
@@ -349,7 +371,6 @@ a:active {
 	text-align:center;
 	margin: 10px auto;	
 	position: relative;
-	border:0px solid #29516D;
 	margin-left:auto;
 	margin-right:auto;
 
@@ -391,4 +412,79 @@ a:active {
 #rfooter_col a:hover{
 	color:#fff;
 }
+hr{width:700px;}
 
+@media all and (max-width: 550px) {
+   
+	#menu {  
+		overflow: auto; 
+		height:100%; 
+		opacity:1;
+	}
+	
+	.minimenu {
+		width: 50px;
+		height: 50px;
+		display:inline;
+	}
+
+	.hidden {
+		display: none;
+
+	}
+	
+	button{
+		background:none;
+		border:none;
+		font-size:1em;
+		color:blue;
+	
+	}
+	
+	#title{
+		margin:0px auto;
+		margin-top:30%;
+		vertical-align:middle;
+		width:100%;
+		text-align:center;
+		
+	}
+	
+	#body_info{
+		width:100%;
+		height:200%;
+ 		margin-top:100%;
+
+	}
+	
+	hr{display:none;}
+	
+	#about_col{
+		width:80%;
+		height:90%;
+		margin:5px;
+		margin-bottom:-150%;
+
+	}
+	
+	#generalinfo_col{
+		width:80%;
+		height:90%;
+		margin:5px;
+		margin-bottom:-130%;
+
+	}
+	
+	#learnmore{
+		width:80%;
+		height:90%;
+		margin:5px;
+		margin-bottom:-130%;
+	
+	}
+	
+	#footer{
+		display:none;
+	}
+}
+  
