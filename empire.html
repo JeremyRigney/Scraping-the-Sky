@@ -4,7 +4,7 @@
 	
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content='width=500'>
 
 		<title>Empire State Building | Scraping the Sky</title>
 		
@@ -20,6 +20,32 @@
 		<noscript><link rel="stylesheet" href="empire.css"></noscript>
 		
 		<script>
+	$(document).ready(function(){
+		
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+				$('.scrollToTop').fadeIn();
+
+			} else {
+				$('.scrollToTop').fadeOut();
+
+
+			}
+		});
+		
+		//Click event to scroll to top
+		$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		
+
+		
+
+			return false;
+		});
+		
+	});
+		
 			
 	$(function() {
 	  $('a[href*=#]:not([href=#])').click(function() {
@@ -78,6 +104,8 @@
 		</div>
 		</a>
 	</div>
+	
+	<a href="#" class="scrollToTop"><img src="images/uparrow.png" /></a>
 
 	<div id="body_info">	
 		<a name="about"></a>
@@ -139,6 +167,8 @@
 
 				
 	</div>
+
+	
 	</body>
 	
 </html>

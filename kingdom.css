@@ -169,6 +169,25 @@ a:active {
 
  }
 
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	text-align:center; 
+	font-style: exo;
+	color: #000;
+	text-decoration: none;
+	position:fixed;
+	bottom:0px;
+	z-index:4;
+	right:40px;
+	transition:0.3s;
+	display:none;
+}
+.scrollToTop:hover{
+	transition:0.3s;
+	text-decoration:none;
+} 
+ 
 #body_info{
 	width:100%;
 	height:1200px;

@@ -486,5 +486,9 @@ hr{width:700px;}
 	#footer{
 		display:none;
 	}
+	
+	.scrollToTop{
+		display:none;
+	}
 }
   
