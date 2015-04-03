@@ -316,8 +316,10 @@ a:active {
 @media all and (max-width: 550px) {
 
 	body{
+		margin-bottom:-100%;
+		background-image:url("images/empiremobile.jpg");
 		background-size:100% 100% ;
-		overflow-x:hidden;
+
 	}
    
 	#menu {  
@@ -356,36 +358,47 @@ a:active {
 	
 	#body-info{
 		width:100%;
-		height:200%;
+		height:220%;
+		background-color:rgba(255,255,255,0.75);
  		margin-top:100%;
 		
 	}
 	
 	hr{display:none;}
 	
+	
 	#construction{
 		width:80%;
-		height:90%;
+		height:100%;
 		margin:5px;
-		margin-bottom:-200%;
+		margin-bottom:-250%;
 
 	}
 	
 	#architecture{
 		width:80%;
-		height:90%;
+		height:100%;
 		margin:5px;
-		margin-bottom:-200%;
-	
+		margin-bottom:-240%;
+
 	}
 	
 	#didyouknow{
 		width:80%;
-		height:90%;
+		height:100%;
 		margin:5px;
+	
 	}
 	
-	#timelapse{
+	#ldidyouknow_col img{
+		display:none;
+	}
+	
+	#rdidyouknow_col img{
+		display:none;
+	}
+	
+	#slideshow{
 		display:none;
 	}
 	
