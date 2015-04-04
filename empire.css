@@ -3,9 +3,10 @@
 html{
 	margin: 0px auto;
 	overflow-x:hidden;
+	
 }
 
-body  {	
+body {	
 	margin: 0px auto;
 	background-size:1600px 800px ;
 	background-repeat: no-repeat;
@@ -23,7 +24,7 @@ body  {
 
 @font-face{	
 	font-family: 'subtitlefont';
-		src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
+	src: url('fonts/neou/neou.ttf'), url('fonts/neou/neou.eot');
 		
 }
 
@@ -33,24 +34,28 @@ body  {
 
 }
 
-
 a:link {
     text-decoration: none;
 	color:#179DA3;
 	transition:0.3s;
+	
 }
+
 a:visited {
     text-decoration: none;
 	color:#179DA3;
 
 }
+
 a:hover {
 	color:#000;
 	transition:0.3s;
 
 }
+
 a:active {
     text-decoration: none;
+	
 }
 
 #menu{
@@ -75,6 +80,7 @@ a:active {
 	background-color:rgba(170, 173, 173, 0.3);
 
 }
+
 #menu ul{
 	margin:0px auto;
 	top:0;
@@ -93,10 +99,12 @@ a:active {
 
 #menu a{
 	color:#fff;
+	
 }
 
 #menu a:hover{
 	color:#000;
+	
 }
 
 #menu:hover li{
@@ -116,6 +124,7 @@ a:active {
 	margin:10px;
 	width:35px;
 	height:35px;
+	
 }
 			
 #title{
@@ -138,15 +147,15 @@ a:active {
 	font-family:subtitlefont;
 	display:block;
 	margin-top:-10px;
+	
 }
-
 
 #bottom_center_button{
     position:absolute;
     bottom:5px;
     width:100%; 
 	
- } 
+} 
  
 #moreinfo_button{
     width:130px;
@@ -159,13 +168,12 @@ a:active {
 	transition:0.3s linear;
 	line-height:25px;
 
- }
+}
  
- #moreinfo_button:hover{
+#moreinfo_button:hover{
 	background-color:rgba(255, 255, 255, 1);
 	transition:0.3s linear;
 	color:#179da3;
-
 
  }
 
@@ -182,10 +190,13 @@ a:active {
 	right:40px;
 	transition:0.3s;
 	display:none;
+	
 }
+
 .scrollToTop:hover{
 	transition:0.3s;
 	text-decoration:none;
+	
 } 
 
 #body_info{
@@ -217,7 +228,6 @@ a:active {
 	padding:40px;
 	text-align:center;
 	margin: 10px auto;	
-	border:0px solid #29516D;
 	margin-left:auto;
 	margin-right:auto;
 
@@ -308,17 +318,22 @@ a:active {
 
 #rfooter_col a{
 	color:#000;
+	
 }
+
 #rfooter_col a:hover{
 	color:#fff;
+	
 }
 
 @media all and (max-width: 550px) {
 
 	body{
-		margin-bottom:-100%;
 		background-image:url("images/empiremobile.jpg");
-		background-size:100% 100% ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 
 	}
    
@@ -326,12 +341,14 @@ a:active {
 		overflow: auto; 
 		height:100%; 
 		opacity:1;
+		
 	}
 	
 	.minimenu {
 		width: 50px;
 		height: 50px;
 		display:inline;
+		
 	}
 		
 	.hidden {
@@ -364,8 +381,10 @@ a:active {
 		
 	}
 	
-	hr{display:none;}
-	
+	hr{
+		display:none;
+		
+	}
 	
 	#construction{
 		width:80%;
@@ -392,23 +411,28 @@ a:active {
 	
 	#ldidyouknow_col img{
 		display:none;
+		
 	}
 	
 	#rdidyouknow_col img{
 		display:none;
+		
 	}
 	
 	#slideshow{
 		display:none;
+		
 	}
 	
 	#footer{
 		display:none;
+		
 	}
 	
 	.scrollToTop{
 		display:none;
+		
 	}
+	
 }
-  
   

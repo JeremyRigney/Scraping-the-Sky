@@ -8,13 +8,10 @@
 
 		<title>Burj Khalifa | Scraping the Sky</title>
 		
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/modernizr.custom.js"></script>
-
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="burj.css" media="none" onload="if(media!='all')media='all'">
 		<noscript><link rel="stylesheet" href="burj.css"></noscript>
@@ -30,7 +27,6 @@
 
 			} else {
 				$('.scrollToTop').fadeOut();
-
 
 			}
 		});
@@ -65,22 +61,22 @@
 	});
 	
 
+	$(function () {
+		 $('#menu ul').addClass('hidden');
+	});
+		
+	$(function() {
 
-$(function () {
-     $('#menu ul').addClass('hidden');
-});
-	
-$(function() {
-
-    $('#menu button.minimenu').click(function(e) {
-        e.preventDefault();
-        $('#menu ul').toggleClass('hidden');
-    });
-});
+		$('#menu button.minimenu').click(function(e) {
+			e.preventDefault();
+			$('#menu ul').toggleClass('hidden');
+		});
+	});
 
 	</script>
-		
+	
 	</head>
+	
 	<body>
 	
 	<div id="menu">
@@ -143,6 +139,7 @@ $(function() {
 				He sat 828 meters above earth, on a pole 1 meter in diameter. Barefoot. Because He Can.
 				<br>
 			</div>
+			
 			<div id="rdidyouknow_col">
 				<image src="images/cruise.jpg" height="250px" width="230px" style="border:3px solid #fff;"/>
 			</div>	
@@ -164,9 +161,6 @@ $(function() {
 				<a href="#"> Twitter <img src="" /></a>
 			</div>
 		</div>
-		<br>
-		
-
 				
 	</div>
 	
